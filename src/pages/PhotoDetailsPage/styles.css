@@ -1,0 +1,28 @@
+.photo-details-page.segment {
+  background-color: darkgrey;
+  background-size: cover;
+  min-height: 450px;
+  border-width: 0px;
+  overflow: hidden;
+}
+
+.photo-details-page::before {
+  backdrop-filter: blur(20px);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+.photo-details-page .card {
+  margin: 0px;
+}
+
+.photo-details-page .card .extra {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
